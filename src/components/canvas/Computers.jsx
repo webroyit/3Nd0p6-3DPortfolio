@@ -2,6 +2,8 @@ import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
+import CanvasLoader from "../Loader";
+
 const Computers = () => {
     // Import the 3D object
     const computer = useGLTF("./desktop_pc/scene.gltf");
@@ -38,7 +40,7 @@ const ComputersCanvas = () => {
                                                             // 'fov' How wide for field of view
             gl={{ preserveDrawingBuffer: true }}
         >
-            <Suspense>
+            <Suspense fallback={<CanvasLoader />}>
                 {/* To move the view from left to right */}
                 <OrbitControls
                     enableZoom={false}
