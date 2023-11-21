@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Smart Contract Developer",
       icon: creator,
     },
   ];
