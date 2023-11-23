@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Experience from "./Experience";
 import Tech from "./Tech";
+import Works from "./Works";
 
 export {
     Navbar,
@@ -10,4 +11,5 @@ export {
     About,
     Experience,
     Tech,
+    Works,
 };
