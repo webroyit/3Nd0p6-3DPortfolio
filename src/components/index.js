@@ -4,6 +4,7 @@ import About from "./About";
 import Experience from "./Experience";
 import Tech from "./Tech";
 import Works from "./Works";
+import Feedbacks from "./Feedbacks";
 
 export {
     Navbar,
@@ -12,4 +13,5 @@ export {
     Experience,
     Tech,
     Works,
+    Feedbacks,
 };
