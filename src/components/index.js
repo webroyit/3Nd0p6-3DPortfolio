@@ -6,6 +6,8 @@ import Tech from "./Tech";
 import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
+import CanvasLoader from "./Loader";
+import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
 
 export {
     Navbar,
@@ -16,4 +18,9 @@ export {
     Works,
     Feedbacks,
     Contact,
+    CanvasLoader,
+    EarthCanvas, 
+    BallCanvas, 
+    ComputersCanvas, 
+    StarsCanvas,
 };
